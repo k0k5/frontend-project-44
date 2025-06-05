@@ -11,7 +11,11 @@
   "description": "",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calculate": "bin/brain-calculate.js",   
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "node bin/brain-prime.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
