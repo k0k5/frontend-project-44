@@ -5,7 +5,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-   git clone https://github.com/AnotherL1fe/frontend-project-44.git
+   git clone https://github.com/k0k5/frontend-project-44.git
 ```
 Перейдите в директорию проекта:
 
