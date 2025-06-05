@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import { isEven, generationNumber } from '../src/helpers/helpers.js';
 import runGame from '../src/runGame.js';
 
@@ -12,7 +13,7 @@ const generateEvenQuestion = () => {
 };
 
 const description = `Answer "yes" if the number is even, otherwise answer "no".`;
-runGame(description, generateEvenQuestion)
+runGame(description, generateEvenQuestion);
 
 
 

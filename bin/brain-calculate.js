@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import {calcNums, generationNumber,generationMathOperator } from '../src/helpers/helpers.js';
 import runGame from '../src/runGame.js';
 

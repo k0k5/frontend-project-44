@@ -2,6 +2,8 @@ export const generationNumber = () => {
     return Math.floor(Math.random() * 101);
   };
 
+//=======================================================
+
 
 export const isEven = (n) =>{
     if(n % 2 === 0){
@@ -11,7 +13,7 @@ export const isEven = (n) =>{
     return false;
 }
 
-
+//=======================================================
 
 export const generationMathOperator = () => {
     const num = Math.floor(Math.random() * 3);
@@ -28,8 +30,9 @@ export const generationMathOperator = () => {
     }
   };
   
+//=======================================================
 
-  export const calcNums = (num1, num2, operator) => {
+export const calcNums = (num1, num2, operator) => {
     switch (operator) {
       case '+':
         return num1 + num2;
@@ -41,3 +44,18 @@ export const generationMathOperator = () => {
         return num1 * num2;
     }
   };
+
+//=======================================================
+
+export const gcd = (a, b) => {
+  a = Math.abs(a)
+  b = Math.abs(b)
+
+  while (b !== 0) {
+    const temp = b
+    b = a % b
+    a = temp
+  }
+
+  return a
+}
