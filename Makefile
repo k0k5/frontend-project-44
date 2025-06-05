@@ -1,4 +1,4 @@
-.PHONY: install brain-games publish
+.PHONY: install lint brain-games publish
 
 install:
 	npm ci
@@ -14,8 +14,6 @@ brain-even:
 
 brain-gcd:
 	node bin/brain-gcd.js
-
-
 
 publish:
 	npm publish --dry-run
