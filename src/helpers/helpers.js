@@ -1,5 +1,5 @@
 export const generationNumber = () => {
-    return Math.floor(Math.random() * 101);
+    return Math.floor(Math.random() * 101)
   };
 
 //=======================================================
@@ -7,10 +7,10 @@ export const generationNumber = () => {
 
 export const isEven = (n) =>{
     if(n % 2 === 0){
-        return true;
+        return true
     }
 
-    return false;
+    return false
 }
 
 //=======================================================
