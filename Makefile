@@ -1,7 +1,8 @@
-.PHONY: install lint brain-games publish
+.PHONY:  install brain-games publish link lint brain-even brain-calc brain-prime brain-progression
 
 install:
 	npm ci
+	chmod +x bin/brain-games.js bin/brain-even.js bin/brain-gcd.js bin/brain-progression.js
 
 brain-games:
 	node bin/brain-games.js
