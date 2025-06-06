@@ -7,7 +7,7 @@ brain-games:
 	node bin/brain-games.js
 
 brain-calculate:
-	node bin/brain-calculate.js	
+	node bin/brain-calc.js	
 
 brain-even:
 	node bin/brain-even.js	
