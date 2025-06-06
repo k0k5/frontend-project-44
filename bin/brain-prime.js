@@ -7,10 +7,10 @@ const generatePrimeQuestion = () =>{
     const a = generationNumber();
 
     const question = `${a}`;
-    const correctAnswer = String(isPrime(a) ? 'yes' : 'no');
+    const correctAnswer = isPrime(a) ? 'yes' : 'no';
 
     return [question, correctAnswer];
 }
 
-const description = '"yes" if given number is prime. Otherwise answer "no"';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 runGame(description, generatePrimeQuestion);
