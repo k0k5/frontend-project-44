@@ -34,3 +34,7 @@ link:
 
 lint:
 	npx eslint .
+
+
+lint-fix: 
+	npx exlint --fix .
